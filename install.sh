@@ -6,7 +6,7 @@ echo u > /proc/sysrq-trigger && \
 dd if=chr.img bs=1024 of=/dev/sda && \
 echo "sync disk" && \
 echo s > /proc/sysrq-trigger && \
-echo "Sleep 5 seconds" && \
-sleep 5 && \
+echo "Sleep 15 seconds" && \
+sleep 15 && \
 echo "Ok, reboot" && \
 echo b > /proc/sysrq-trigger
